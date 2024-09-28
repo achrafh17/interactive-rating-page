@@ -1,0 +1,125 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    background-color: hsl(213, 19%, 18%);
+    width: 25vw;
+    height: 55vh;
+    margin-top: 25vh;
+    border-radius: 20px;
+    padding: 20px;
+}
+.star-container {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: hsl(217, 12%, 63%);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star-container i {
+    color: hsl(25, 97%, 53%);
+    font-size: 20px;
+    text-align: center;
+}
+.main h1 {
+    font-size: 30px;
+    font-family: "Overpass", sans-serif;
+    color: white;
+    margin-top: 30px;
+
+}
+.main h2 {
+    font-family: "Overpass", sans-serif;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    color: hsl(223, 3%, 46%);
+}
+.numbers-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.number {
+    width: 50px;
+    height: 0px;
+    border-radius: 100%;
+    background-color:hsl(223, 3%, 46%) ;
+    font-size: 25px;
+    color: hsl(220, 2%, 25%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+    cursor: pointer;
+}
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+.number:focus {
+    background-color: hsl(217, 12%, 63%) ;
+}
+.main button {
+    background-color:hsl(25, 97%, 53%) ;
+    width: 90%;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-top: 30px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.main button:hover {
+    background-color:hsl(214, 8%, 83%) ;
+}
+.main img {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+#you-have {
+    width: 64%;
+    height: 20px;
+    background-color:hsl(210, 1%, 31%) ;
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+    margin-left: 20%;
+    text-align: center;
+    border-radius: 10px;
+    color: chocolate;
+  
+  
+  
+}
+.main h3 {
+    text-align: center;
+    color: white;
+    font-family: "Overpass", sans-serif;
+    font-size: 30px;
+}
+.main h5 {
+    text-align: center;
+    color: gray;
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    width: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.page-two {
+    z-index: -1;
+    margin-top: -vh;
+    display: none;
+}
